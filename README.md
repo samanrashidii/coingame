@@ -1,6 +1,6 @@
-# Simple Fighter
+# Coin Hunter
 
-A simple fight game made with CDN Vuejs and Samanira
+A simple coin game made with [Phaser](http://phaser.io)
 
 ## Language
 
@@ -9,14 +9,15 @@ English - LTR
 ## Demo
 
 You can see the demo by clicking below link :
-[http://simplefighter.samanrashidi.com](http://simplefighter.samanrashidi.com)
+[https://coinhunter.netlify.com](https://coinhunter.netlify.com)
 
 ## Built With
 
-* Vuejs
 * HTML 5
 * CSS
 * Javascript
+* jQuery
+* Phaser
 
 ## Contributing
 
