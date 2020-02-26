@@ -163,7 +163,9 @@ window.onload = function () {
     // when the player winw the game
     if (won) {
       winningMessage.text = "YOU WIN!!!";
-      $('#startConfetti').trigger('click');
+      setTimeout(() => {
+        $('#startConfetti').trigger('click');
+      }, 1000);
     }
   }
 

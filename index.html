@@ -4,6 +4,11 @@
         <meta charset="UTF-8" />
         <title>SamanirA Coin Collector</title>
         <style>
+            *{
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
             html{ 
                 display: table;
                 width: 100%;
@@ -27,13 +32,16 @@
                 z-index: 9999999999 !important;
                 pointer-events: none !important;
             }
+            #startConfetti{
+                display: none;
+            }
         </style>
         <script src="js/jquery.min.js"></script>
         <script src="js/phaser.js"></script>
         <script src="js/game.js"></script>
     </head>
     <body>
-        <button id="startConfetti" style="display:none;">Start</button>
+        <button id="startConfetti">Start</button>
         <script src="js/confetti.js"></script>
     </body>
 </html>
