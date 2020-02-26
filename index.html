@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>SamanirA Coin Collector</title>
+        <style>
+            html{ 
+                display: table;
+                width: 100%;
+                height: 100%;
+                background: #202020; 
+            }
+            body{
+                display: table-cell;
+                vertical-align: middle;
+                width:100%;
+                height: 100%;
+                margin:0;
+            }
+            canvas {
+                margin:auto;
+                border:2px solid #121212;
+            }
+            #confettiCanvas{
+                width: 100% !important;
+                height: 100% !important;
+                z-index: 9999999999 !important;
+                pointer-events: none !important;
+            }
+        </style>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/phaser.js"></script>
+        <script src="js/game.js"></script>
+    </head>
+    <body>
+        <button id="startConfetti" style="display:none;">Start</button>
+        <script src="js/confetti.js"></script>
+    </body>
+</html>
